@@ -1,0 +1,34 @@
+{
+  "user_id": "U-02251",
+  "agent_owner": "agent-U-02251",
+  "arm": "agent",
+  "subscription_status": "never",
+  "active_goal_id": "G05",
+  "goal_status": "succeeded",
+  "goal_judgment": "succeeded",
+  "goal_committed_at": "2026-10-01T03:40:52.538Z",
+  "goal_deadline_at": "2026-10-08T03:40:52.000Z",
+  "goal_judgment_at": "2026-10-19T05:53:56.284Z",
+  "goal_learned": "Viewer completed paid purchase for plan P_MONTH (₹149) at 2026-10-07T14:10:00.000Z (event: oua-014585), satisfying G05 (first_paid_7d) within deadline 2026-10-08T03:40:52.000Z.",
+  "goal_evidence_events": [
+    "oua-014585"
+  ],
+  "active_plan": {
+    "action_id": "A-000091",
+    "decision_id": "D-000257",
+    "user_id": "U-02251",
+    "trigger_event_id": "27b8c22c-6499-4199-add3-3999de677962",
+    "type": "push",
+    "published_at": "2026-10-01T03:40:52.538Z",
+    "send_at": "2026-10-01T03:40:52.538Z",
+    "title_id": "T1421",
+    "text": {
+      "title": "Aapke Liye Naya Content",
+      "body": "Sane Tisu abhi dekhein apne app par."
+    },
+    "deeplink": "ott://title/T1421"
+  },
+  "last_event_at": "2026-10-01T15:08:11.968Z",
+  "last_app_dialect": "d6",
+  "updated_at": "2026-10-19T05:53:56.284Z"
+}

@@ -1,0 +1,58 @@
+{
+  "user_id": "U-00133",
+  "agent_owner": "agent-U-00133",
+  "arm": "agent",
+  "subscription_status": "never",
+  "active_goal_id": "G02",
+  "goal_status": "succeeded",
+  "goal_judgment": "succeeded",
+  "goal_committed_at": "2026-10-01T06:11:11.196Z",
+  "goal_deadline_at": "2026-10-04T06:11:11.000Z",
+  "goal_judgment_at": "2026-10-19T05:53:56.284Z",
+  "goal_learned": "Viewer completed episode lomobha-moni-d3-s1e1 at 2026-10-03T07:49:55.000Z (event: oua-000835), satisfying G02 (first_full_episode_3d) within deadline 2026-10-04T06:11:11.000Z.",
+  "goal_evidence_events": [
+    "oua-000835"
+  ],
+  "active_plan": {
+    "action_id": "A-000192",
+    "decision_id": "D-000744",
+    "user_id": "U-00133",
+    "trigger_event_id": "601dfb7f-7479-42ee-a92b-9992f136e302",
+    "type": "home_page",
+    "published_at": "2026-10-01T06:11:11.196Z",
+    "dialect": "d3",
+    "hero_title_id": "T0905",
+    "rows": [
+      {
+        "row_type": "popular_in_dialect",
+        "title_ids": [
+          "T0902",
+          "T0904",
+          "T0908",
+          "T0901"
+        ]
+      },
+      {
+        "row_type": "new_releases",
+        "title_ids": [
+          "T0910",
+          "T0903",
+          "T0906",
+          "T0913"
+        ]
+      },
+      {
+        "row_type": "genre",
+        "title_ids": [
+          "T0909",
+          "T0907",
+          "T0914",
+          "T0911"
+        ]
+      }
+    ]
+  },
+  "last_event_at": "2026-10-01T06:11:11.196Z",
+  "last_app_dialect": "d3",
+  "updated_at": "2026-10-19T05:53:56.284Z"
+}

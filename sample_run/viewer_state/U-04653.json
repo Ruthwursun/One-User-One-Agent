@@ -1,0 +1,67 @@
+{
+  "user_id": "U-04653",
+  "agent_owner": "agent-U-04653",
+  "arm": "agent",
+  "subscription_status": "active",
+  "active_goal_id": "G08",
+  "goal_status": "succeeded",
+  "goal_judgment": "succeeded",
+  "goal_committed_at": "2026-10-01T04:40:32.756Z",
+  "goal_deadline_at": "2026-10-08T04:40:32.000Z",
+  "goal_judgment_at": "2026-10-19T05:53:56.284Z",
+  "goal_learned": "Viewer played new release title T0915 (released 2026-09-09) at 2026-10-06T15:48:17.000Z (event: oua-029119), satisfying G08 (try_new_release_7d) within deadline 2026-10-08T04:40:32.000Z.",
+  "goal_evidence_events": [
+    "oua-029119"
+  ],
+  "active_plan": {
+    "action_id": "A-000125",
+    "decision_id": "D-000342",
+    "user_id": "U-04653",
+    "trigger_event_id": "897ad0eb-b51b-403e-880c-b3c4362c6294",
+    "type": "home_page",
+    "published_at": "2026-10-01T04:40:32.756Z",
+    "dialect": "d4",
+    "hero_title_id": "T1155",
+    "rows": [
+      {
+        "row_type": "popular_in_dialect",
+        "title_ids": [
+          "T0937",
+          "T1040",
+          "T1107",
+          "T1116"
+        ]
+      },
+      {
+        "row_type": "new_releases",
+        "title_ids": [
+          "T1014",
+          "T1162",
+          "T1101",
+          "T1048"
+        ]
+      },
+      {
+        "row_type": "genre",
+        "title_ids": [
+          "T1150",
+          "T1031",
+          "T0922",
+          "T0988"
+        ]
+      },
+      {
+        "row_type": "because_you_watched",
+        "title_ids": [
+          "T1105",
+          "T1051",
+          "T0956",
+          "T1083"
+        ]
+      }
+    ]
+  },
+  "last_event_at": "2026-10-01T04:46:10.296Z",
+  "last_app_dialect": "d4",
+  "updated_at": "2026-10-19T05:53:56.284Z"
+}
