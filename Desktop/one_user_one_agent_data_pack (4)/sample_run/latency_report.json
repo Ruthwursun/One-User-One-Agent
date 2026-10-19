@@ -1,0 +1,44 @@
+{
+  "summary": {
+    "total_decisions": 2769,
+    "total_actions": 989,
+    "total_abstentions": 1780,
+    "total_wall_seconds": 1.79,
+    "budget_limit_seconds": 60.0,
+    "decisions_exceeding_budget": 0
+  },
+  "latency_ms": {
+    "p50": 0.01,
+    "p90": 1.86,
+    "p95": 2.08,
+    "p99": 2.67,
+    "max": 13.2,
+    "mean": 0.6
+  },
+  "model_provider_calls": {
+    "limit_per_decision": 8,
+    "total_calls": 1063,
+    "max_observed_per_decision": 1,
+    "decisions_exceeding_limit": 0
+  },
+  "tool_calls": {
+    "limit_per_decision": 20,
+    "total_calls": 7973,
+    "max_observed_per_decision": 6,
+    "decisions_exceeding_limit": 0
+  },
+  "actions_breakdown": {
+    "home_page": 954,
+    "push": 35
+  },
+  "abstentions_breakdown": {
+    "DUPLICATE_TRIGGER": 90,
+    "FREQUENCY_CAP_EXCEEDED": 12,
+    "HOLDOUT_ARM": 1325,
+    "INSUFFICIENT_CONTENT_EVIDENCE": 47,
+    "MISSING_VIEWER_EVIDENCE": 100,
+    "NO_PUSH_CONSENT": 8,
+    "OFFLINE_BUFFERED_SESSION": 191,
+    "QUIET_HOURS_IST": 7
+  }
+}

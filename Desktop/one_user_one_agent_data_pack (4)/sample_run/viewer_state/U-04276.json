@@ -1,0 +1,58 @@
+{
+  "user_id": "U-04276",
+  "agent_owner": "agent-U-04276",
+  "arm": "agent",
+  "subscription_status": "lapsed",
+  "active_goal_id": "G02",
+  "goal_status": "succeeded",
+  "goal_judgment": "succeeded",
+  "goal_committed_at": "2026-10-01T12:25:00.912Z",
+  "goal_deadline_at": "2026-10-04T12:25:00.000Z",
+  "goal_judgment_at": "2026-10-19T05:53:56.284Z",
+  "goal_learned": "Viewer completed episode rate-java-d3-s1e1 at 2026-10-01T13:06:08.872Z (event: oua-027007), satisfying G02 (first_full_episode_3d) within deadline 2026-10-04T12:25:00.000Z.",
+  "goal_evidence_events": [
+    "oua-027007"
+  ],
+  "active_plan": {
+    "action_id": "A-000516",
+    "decision_id": "D-001519",
+    "user_id": "U-04276",
+    "trigger_event_id": "94ec4df5-1f45-4b99-8905-21e362df6c50",
+    "type": "home_page",
+    "published_at": "2026-10-01T12:25:00.912Z",
+    "dialect": "d3",
+    "hero_title_id": "T0905",
+    "rows": [
+      {
+        "row_type": "popular_in_dialect",
+        "title_ids": [
+          "T0902",
+          "T0904",
+          "T0908",
+          "T0901"
+        ]
+      },
+      {
+        "row_type": "new_releases",
+        "title_ids": [
+          "T0910",
+          "T0903",
+          "T0906",
+          "T0913"
+        ]
+      },
+      {
+        "row_type": "genre",
+        "title_ids": [
+          "T0909",
+          "T0907",
+          "T0914",
+          "T0911"
+        ]
+      }
+    ]
+  },
+  "last_event_at": "2026-10-01T12:25:00.912Z",
+  "last_app_dialect": "d3",
+  "updated_at": "2026-10-19T05:53:56.284Z"
+}

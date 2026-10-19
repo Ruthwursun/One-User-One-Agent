@@ -1,0 +1,67 @@
+{
+  "user_id": "U-02932",
+  "agent_owner": "agent-U-02932",
+  "arm": "agent",
+  "subscription_status": "active",
+  "active_goal_id": "G07",
+  "goal_status": "succeeded",
+  "goal_judgment": "succeeded",
+  "goal_committed_at": "2026-10-01T03:17:31.655Z",
+  "goal_deadline_at": "2026-10-04T03:17:31.000Z",
+  "goal_judgment_at": "2026-10-19T05:53:56.284Z",
+  "goal_learned": "Viewer resumed series sane-tisu-d6 with play on title T1421 at 2026-10-03T16:54:35.000Z (event: oua-018317), satisfying G07 (resume_series_3d) within deadline 2026-10-04T03:17:31.000Z.",
+  "goal_evidence_events": [
+    "oua-018317"
+  ],
+  "active_plan": {
+    "action_id": "A-000079",
+    "decision_id": "D-000225",
+    "user_id": "U-02932",
+    "trigger_event_id": "f5c1c22b-0045-4a9b-852e-47beeb5f5ebc",
+    "type": "home_page",
+    "published_at": "2026-10-01T03:17:31.655Z",
+    "dialect": "d6",
+    "hero_title_id": "T1421",
+    "rows": [
+      {
+        "row_type": "popular_in_dialect",
+        "title_ids": [
+          "T1468",
+          "T1461",
+          "T1491",
+          "T1484"
+        ]
+      },
+      {
+        "row_type": "new_releases",
+        "title_ids": [
+          "T1463",
+          "T1393",
+          "T1472",
+          "T1456"
+        ]
+      },
+      {
+        "row_type": "genre",
+        "title_ids": [
+          "T1486",
+          "T1480",
+          "T1396",
+          "T1473"
+        ]
+      },
+      {
+        "row_type": "because_you_watched",
+        "title_ids": [
+          "T1455",
+          "T1500",
+          "T1412",
+          "T1397"
+        ]
+      }
+    ]
+  },
+  "last_event_at": "2026-10-01T03:17:31.655Z",
+  "last_app_dialect": "d6",
+  "updated_at": "2026-10-19T05:53:56.284Z"
+}

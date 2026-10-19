@@ -1,0 +1,67 @@
+{
+  "user_id": "U-00836",
+  "agent_owner": "agent-U-00836",
+  "arm": "agent",
+  "subscription_status": "never",
+  "active_goal_id": "G02",
+  "goal_status": "succeeded",
+  "goal_judgment": "succeeded",
+  "goal_committed_at": "2026-10-01T15:02:44.443Z",
+  "goal_deadline_at": "2026-10-04T15:02:44.000Z",
+  "goal_judgment_at": "2026-10-19T05:53:56.284Z",
+  "goal_learned": "Viewer completed episode mana-nati-d6-s1e1 at 2026-10-02T14:46:29.000Z (event: oua-005554), satisfying G02 (first_full_episode_3d) within deadline 2026-10-04T15:02:44.000Z.",
+  "goal_evidence_events": [
+    "oua-005554"
+  ],
+  "active_plan": {
+    "action_id": "A-000724",
+    "decision_id": "D-002000",
+    "user_id": "U-00836",
+    "trigger_event_id": "95c7dc75-1417-49fb-a026-297485486940",
+    "type": "home_page",
+    "published_at": "2026-10-01T15:02:44.443Z",
+    "dialect": "d6",
+    "hero_title_id": "T1421",
+    "rows": [
+      {
+        "row_type": "popular_in_dialect",
+        "title_ids": [
+          "T1468",
+          "T1461",
+          "T1491",
+          "T1484"
+        ]
+      },
+      {
+        "row_type": "new_releases",
+        "title_ids": [
+          "T1393",
+          "T1472",
+          "T1456",
+          "T1486"
+        ]
+      },
+      {
+        "row_type": "genre",
+        "title_ids": [
+          "T1480",
+          "T1396",
+          "T1473",
+          "T1455"
+        ]
+      },
+      {
+        "row_type": "because_you_watched",
+        "title_ids": [
+          "T1500",
+          "T1412",
+          "T1397",
+          "T1457"
+        ]
+      }
+    ]
+  },
+  "last_event_at": "2026-10-01T15:02:44.443Z",
+  "last_app_dialect": "d6",
+  "updated_at": "2026-10-19T05:53:56.284Z"
+}

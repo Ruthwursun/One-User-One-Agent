@@ -1,0 +1,67 @@
+{
+  "user_id": "U-04785",
+  "agent_owner": "agent-U-04785",
+  "arm": "agent",
+  "subscription_status": "never",
+  "active_goal_id": "G01",
+  "goal_status": "succeeded",
+  "goal_judgment": "succeeded",
+  "goal_committed_at": "2026-10-01T05:16:28.716Z",
+  "goal_deadline_at": "2026-10-02T05:16:28.000Z",
+  "goal_judgment_at": "2026-10-19T05:53:56.284Z",
+  "goal_learned": "Viewer started play for title T0944 at 2026-10-01T05:17:07.715Z (event: oua-029959), satisfying G01 (first_play_24h) within deadline 2026-10-02T05:16:28.000Z.",
+  "goal_evidence_events": [
+    "oua-029959"
+  ],
+  "active_plan": {
+    "action_id": "A-000156",
+    "decision_id": "D-000635",
+    "user_id": "U-04785",
+    "trigger_event_id": "80a0f2ea-0bca-4028-91bd-d54d28a101d9",
+    "type": "home_page",
+    "published_at": "2026-10-01T05:16:28.716Z",
+    "dialect": "d4",
+    "hero_title_id": "T1155",
+    "rows": [
+      {
+        "row_type": "popular_in_dialect",
+        "title_ids": [
+          "T0937",
+          "T1040",
+          "T1107",
+          "T1116"
+        ]
+      },
+      {
+        "row_type": "new_releases",
+        "title_ids": [
+          "T1014",
+          "T1162",
+          "T1101",
+          "T1048"
+        ]
+      },
+      {
+        "row_type": "genre",
+        "title_ids": [
+          "T1150",
+          "T1031",
+          "T0922",
+          "T0988"
+        ]
+      },
+      {
+        "row_type": "because_you_watched",
+        "title_ids": [
+          "T1105",
+          "T1051",
+          "T0956",
+          "T1083"
+        ]
+      }
+    ]
+  },
+  "last_event_at": "2026-10-01T05:16:28.716Z",
+  "last_app_dialect": "d4",
+  "updated_at": "2026-10-19T05:53:56.284Z"
+}
