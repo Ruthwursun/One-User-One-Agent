@@ -1,0 +1,18 @@
+{
+  "user_id": "U-03946",
+  "agent_owner": "agent-U-03946",
+  "arm": "holdout",
+  "subscription_status": null,
+  "active_goal_id": null,
+  "goal_status": "none",
+  "goal_judgment": "none",
+  "goal_committed_at": null,
+  "goal_deadline_at": null,
+  "goal_judgment_at": "2026-10-19T05:53:56.284Z",
+  "goal_learned": "No active goal committed for viewer.",
+  "goal_evidence_events": [],
+  "active_plan": null,
+  "last_event_at": "2026-10-01T17:33:10.539Z",
+  "last_app_dialect": "d2",
+  "updated_at": "2026-10-19T05:53:56.284Z"
+}

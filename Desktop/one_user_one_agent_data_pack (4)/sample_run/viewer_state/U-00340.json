@@ -1,0 +1,32 @@
+{
+  "user_id": "U-00340",
+  "agent_owner": "agent-U-00340",
+  "arm": "agent",
+  "subscription_status": "never",
+  "active_goal_id": "G05",
+  "goal_status": "failed",
+  "goal_judgment": "failed",
+  "goal_committed_at": "2026-10-01T15:58:22.137Z",
+  "goal_deadline_at": "2026-10-08T15:58:22.000Z",
+  "goal_judgment_at": "2026-10-19T05:53:56.284Z",
+  "goal_learned": "Goal G05 (first_paid_7d) failed: deadline 2026-10-08T15:58:22.000Z passed with no attributable success events observed.",
+  "goal_evidence_events": [],
+  "active_plan": {
+    "action_id": "A-000843",
+    "decision_id": "D-002291",
+    "user_id": "U-00340",
+    "trigger_event_id": "95455129-4f39-430b-8920-3d0aa423f4d6",
+    "type": "push",
+    "published_at": "2026-10-01T15:58:22.137Z",
+    "send_at": "2026-10-01T15:58:22.137Z",
+    "title_id": "T0426",
+    "text": {
+      "title": "Aapke Liye Naya Content",
+      "body": "Temopi Bala abhi dekhein apne app par."
+    },
+    "deeplink": "ott://title/T0426"
+  },
+  "last_event_at": "2026-10-01T16:51:42.690Z",
+  "last_app_dialect": "d1",
+  "updated_at": "2026-10-19T05:53:56.284Z"
+}

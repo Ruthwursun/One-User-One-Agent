@@ -1,0 +1,846 @@
+{
+  "metadata": {
+    "experiment_date": "2026-10-01",
+    "observation_window_days": 14,
+    "replay_start_utc": "2026-09-30T18:30:00.000Z",
+    "replay_end_utc": "2026-10-01T18:30:00.000Z",
+    "day3_end_utc": "2026-10-04T18:30:00.000Z",
+    "horizon_end_utc": "2026-10-15T18:30:00.000Z",
+    "total_randomized_population": 5000,
+    "treatment_population_users": 2513,
+    "holdout_population_users": 2487,
+    "total_triggered_users": 1746,
+    "triggered_treatment_users": 863,
+    "triggered_holdout_users": 883,
+    "treatment_users_served": 663,
+    "population_compliance_rate": 0.2638,
+    "triggered_compliance_rate": 0.7683,
+    "compliance_rate": 0.7683
+  },
+  "primary_itt_population": {
+    "sample_size": {
+      "total": 5000,
+      "treatment": 2513,
+      "holdout": 2487
+    },
+    "description": "Primary Intention-To-Treat evaluation across all 5,000 randomized viewers under the imputation assumption that non-triggered viewers (3,254) experienced zero post-replay outcomes, as the simulator (simulate_outcomes.py) restricted post-replay simulation to the 1,746 triggered viewers.",
+    "immediate_replay_day": {
+      "metric": "play_started_during_session",
+      "description": "Proportion of viewers starting >= 1 play during the replay day session",
+      "results": {
+        "treatment_n": 2513,
+        "holdout_n": 2487,
+        "treatment_success": 397,
+        "holdout_success": 308,
+        "treatment_rate": 0.158,
+        "holdout_rate": 0.1238,
+        "diff_pts": 3.413,
+        "relative_lift_pct": 27.56,
+        "ci95": [
+          1.485,
+          5.341
+        ],
+        "ci95_wald": [
+          1.487,
+          5.339
+        ],
+        "z_score": 3.468,
+        "z_p_value": 0.0005,
+        "fisher_p_value": 0.0005,
+        "p_value": 0.0005,
+        "statistically_significant": true
+      }
+    },
+    "early_return_days_1_3": {
+      "metric": "days_1_to_3_return_open",
+      "description": "Proportion of viewers reopening the app within Days 1 to 3 post-replay",
+      "results": {
+        "treatment_n": 2513,
+        "holdout_n": 2487,
+        "treatment_success": 549,
+        "holdout_success": 540,
+        "treatment_rate": 0.2185,
+        "holdout_rate": 0.2171,
+        "diff_pts": 0.133,
+        "relative_lift_pct": 0.61,
+        "ci95": [
+          -2.155,
+          2.421
+        ],
+        "ci95_wald": [
+          -2.155,
+          2.422
+        ],
+        "z_score": 0.114,
+        "z_p_value": 0.909,
+        "fisher_p_value": 0.9182,
+        "p_value": 0.909,
+        "statistically_significant": false
+      }
+    },
+    "full_14_day_horizon": {
+      "active_retention_rate": {
+        "description": "Proportion of viewers active on >= 1 day in the 14-day horizon",
+        "results": {
+          "treatment_n": 2513,
+          "holdout_n": 2487,
+          "treatment_success": 791,
+          "holdout_success": 809,
+          "treatment_rate": 0.3148,
+          "holdout_rate": 0.3253,
+          "diff_pts": -1.053,
+          "relative_lift_pct": -3.24,
+          "ci95": [
+            -3.637,
+            1.532
+          ],
+          "ci95_wald": [
+            -3.639,
+            1.533
+          ],
+          "z_score": -0.798,
+          "z_p_value": 0.4249,
+          "fisher_p_value": 0.4307,
+          "p_value": 0.4249,
+          "statistically_significant": false
+        }
+      },
+      "mean_active_days": {
+        "description": "Mean number of distinct active days per viewer in the 14-day horizon",
+        "results": {
+          "treatment_n": 2513,
+          "holdout_n": 2487,
+          "treatment_mean": 1.552,
+          "holdout_mean": 1.586,
+          "diff": -0.034,
+          "relative_lift_pct": -2.16,
+          "ci95": [
+            -0.193,
+            0.124
+          ],
+          "t_score": -0.425,
+          "p_value": 0.6711,
+          "statistically_significant": false
+        }
+      },
+      "play_consumption_rate": {
+        "description": "Proportion of viewers starting >= 1 play in the 14-day horizon",
+        "results": {
+          "treatment_n": 2513,
+          "holdout_n": 2487,
+          "treatment_success": 585,
+          "holdout_success": 603,
+          "treatment_rate": 0.2328,
+          "holdout_rate": 0.2425,
+          "diff_pts": -0.967,
+          "relative_lift_pct": -3.99,
+          "ci95": [
+            -3.326,
+            1.392
+          ],
+          "ci95_wald": [
+            -3.327,
+            1.392
+          ],
+          "z_score": -0.803,
+          "z_p_value": 0.4218,
+          "fisher_p_value": 0.4254,
+          "p_value": 0.4218,
+          "statistically_significant": false
+        }
+      },
+      "mean_plays_per_viewer": {
+        "description": "Mean total plays started per viewer in the 14-day horizon",
+        "results": {
+          "treatment_n": 2513,
+          "holdout_n": 2487,
+          "treatment_mean": 0.837,
+          "holdout_mean": 0.89,
+          "diff": -0.053,
+          "relative_lift_pct": -5.95,
+          "ci95": [
+            -0.168,
+            0.062
+          ],
+          "t_score": -0.904,
+          "p_value": 0.3658,
+          "statistically_significant": false
+        }
+      },
+      "episode_completion_rate": {
+        "description": "Proportion of viewers completing >= 1 episode in the 14-day horizon",
+        "results": {
+          "treatment_n": 2513,
+          "holdout_n": 2487,
+          "treatment_success": 424,
+          "holdout_success": 452,
+          "treatment_rate": 0.1687,
+          "holdout_rate": 0.1817,
+          "diff_pts": -1.302,
+          "relative_lift_pct": -7.17,
+          "ci95": [
+            -3.411,
+            0.806
+          ],
+          "ci95_wald": [
+            -3.41,
+            0.805
+          ],
+          "z_score": -1.211,
+          "z_p_value": 0.2258,
+          "fisher_p_value": 0.2339,
+          "p_value": 0.2258,
+          "statistically_significant": false
+        }
+      },
+      "paid_conversion_rate": {
+        "description": "Proportion of viewers completing >= 1 purchase in the 14-day horizon",
+        "results": {
+          "treatment_n": 2513,
+          "holdout_n": 2487,
+          "treatment_success": 14,
+          "holdout_success": 9,
+          "treatment_rate": 0.0056,
+          "holdout_rate": 0.0036,
+          "diff_pts": 0.195,
+          "relative_lift_pct": 53.95,
+          "ci95": [
+            -0.2,
+            0.608
+          ],
+          "ci95_wald": [
+            -0.179,
+            0.57
+          ],
+          "z_score": 1.02,
+          "z_p_value": 0.3077,
+          "fisher_p_value": 0.4039,
+          "p_value": 0.4039,
+          "statistically_significant": false
+        }
+      },
+      "revenue_inr": {
+        "treatment_revenue": 2086.0,
+        "holdout_revenue": 1341.0,
+        "diff_inr": 745.0,
+        "treatment_revenue_per_viewer": 0.83,
+        "holdout_revenue_per_viewer": 0.539,
+        "diff_revenue_per_viewer": 0.291,
+        "relative_revenue_lift_pct": 55.56,
+        "relative_per_viewer_revenue_lift_pct": 53.95,
+        "treatment_purchasers_count": 14,
+        "holdout_purchasers_count": 9
+      }
+    }
+  },
+  "secondary_triggered_cohort": {
+    "sample_size": {
+      "total": 1746,
+      "treatment": 863,
+      "holdout": 883
+    },
+    "description": "Secondary Intention-To-Treat evaluation restricted to the 1,746 viewers active on the replay day who generated triggers. For this cohort, post-replay outcomes were fully simulated and empirically observed.",
+    "immediate_replay_day": {
+      "metric": "play_started_during_session",
+      "description": "Proportion of viewers starting >= 1 play during the replay day session",
+      "results": {
+        "treatment_n": 863,
+        "holdout_n": 883,
+        "treatment_success": 397,
+        "holdout_success": 308,
+        "treatment_rate": 0.46,
+        "holdout_rate": 0.3488,
+        "diff_pts": 11.121,
+        "relative_lift_pct": 31.88,
+        "ci95": [
+          6.522,
+          15.656
+        ],
+        "ci95_wald": [
+          6.545,
+          15.697
+        ],
+        "z_score": 4.735,
+        "z_p_value": 0.0,
+        "fisher_p_value": 0.0,
+        "p_value": 0.0,
+        "statistically_significant": true
+      },
+      "cace_estimate_pts": 14.476
+    },
+    "early_return_days_1_3": {
+      "metric": "days_1_to_3_return_open",
+      "description": "Proportion of viewers reopening the app within Days 1 to 3 post-replay",
+      "results": {
+        "treatment_n": 863,
+        "holdout_n": 883,
+        "treatment_success": 549,
+        "holdout_success": 540,
+        "treatment_rate": 0.6362,
+        "holdout_rate": 0.6116,
+        "diff_pts": 2.46,
+        "relative_lift_pct": 4.02,
+        "ci95": [
+          -2.083,
+          6.986
+        ],
+        "ci95_wald": [
+          -2.083,
+          7.003
+        ],
+        "z_score": 1.061,
+        "z_p_value": 0.2887,
+        "fisher_p_value": 0.2997,
+        "p_value": 0.2887,
+        "statistically_significant": false
+      },
+      "cace_estimate_pts": 3.202
+    },
+    "full_14_day_horizon": {
+      "active_retention_rate": {
+        "description": "Proportion of viewers active on >= 1 day in the 14-day horizon",
+        "results": {
+          "treatment_n": 863,
+          "holdout_n": 883,
+          "treatment_success": 791,
+          "holdout_success": 809,
+          "treatment_rate": 0.9166,
+          "holdout_rate": 0.9162,
+          "diff_pts": 0.038,
+          "relative_lift_pct": 0.04,
+          "ci95": [
+            -2.584,
+            2.65
+          ],
+          "ci95_wald": [
+            -2.559,
+            2.634
+          ],
+          "z_score": 0.028,
+          "z_p_value": 0.9774,
+          "fisher_p_value": 1.0,
+          "p_value": 0.9774,
+          "statistically_significant": false
+        }
+      },
+      "mean_active_days": {
+        "description": "Mean number of distinct active days per viewer in the 14-day horizon",
+        "results": {
+          "treatment_n": 863,
+          "holdout_n": 883,
+          "treatment_mean": 4.518,
+          "holdout_mean": 4.467,
+          "diff": 0.051,
+          "relative_lift_pct": 1.15,
+          "ci95": [
+            -0.249,
+            0.352
+          ],
+          "t_score": 0.335,
+          "p_value": 0.7374,
+          "statistically_significant": false
+        }
+      },
+      "play_consumption_rate": {
+        "description": "Proportion of viewers starting >= 1 play in the 14-day horizon",
+        "results": {
+          "treatment_n": 863,
+          "holdout_n": 883,
+          "treatment_success": 585,
+          "holdout_success": 603,
+          "treatment_rate": 0.6779,
+          "holdout_rate": 0.6829,
+          "diff_pts": -0.503,
+          "relative_lift_pct": -0.74,
+          "ci95": [
+            -4.872,
+            3.865
+          ],
+          "ci95_wald": [
+            -4.878,
+            3.872
+          ],
+          "z_score": -0.225,
+          "z_p_value": 0.8217,
+          "fisher_p_value": 0.8374,
+          "p_value": 0.8217,
+          "statistically_significant": false
+        }
+      },
+      "mean_plays_per_viewer": {
+        "description": "Mean total plays started per viewer in the 14-day horizon",
+        "results": {
+          "treatment_n": 863,
+          "holdout_n": 883,
+          "treatment_mean": 2.437,
+          "holdout_mean": 2.506,
+          "diff": -0.069,
+          "relative_lift_pct": -2.77,
+          "ci95": [
+            -0.34,
+            0.201
+          ],
+          "t_score": -0.503,
+          "p_value": 0.6151,
+          "statistically_significant": false
+        }
+      },
+      "episode_completion_rate": {
+        "description": "Proportion of viewers completing >= 1 episode in the 14-day horizon",
+        "results": {
+          "treatment_n": 863,
+          "holdout_n": 883,
+          "treatment_success": 424,
+          "holdout_success": 452,
+          "treatment_rate": 0.4913,
+          "holdout_rate": 0.5119,
+          "diff_pts": -2.058,
+          "relative_lift_pct": -4.02,
+          "ci95": [
+            -6.731,
+            2.628
+          ],
+          "ci95_wald": [
+            -6.748,
+            2.632
+          ],
+          "z_score": -0.86,
+          "z_p_value": 0.3898,
+          "fisher_p_value": 0.4158,
+          "p_value": 0.3898,
+          "statistically_significant": false
+        }
+      },
+      "paid_conversion_rate": {
+        "description": "Proportion of viewers completing >= 1 purchase in the 14-day horizon",
+        "results": {
+          "treatment_n": 863,
+          "holdout_n": 883,
+          "treatment_success": 14,
+          "holdout_success": 9,
+          "treatment_rate": 0.0162,
+          "holdout_rate": 0.0102,
+          "diff_pts": 0.603,
+          "relative_lift_pct": 59.16,
+          "ci95": [
+            -0.514,
+            1.788
+          ],
+          "ci95_wald": [
+            -0.469,
+            1.675
+          ],
+          "z_score": 1.105,
+          "z_p_value": 0.2692,
+          "fisher_p_value": 0.2994,
+          "p_value": 0.2994,
+          "statistically_significant": false
+        },
+        "cace_estimate_pts": 0.785
+      },
+      "revenue_inr": {
+        "treatment_revenue": 2086.0,
+        "holdout_revenue": 1341.0,
+        "diff_inr": 745.0,
+        "treatment_revenue_per_viewer": 2.417,
+        "holdout_revenue_per_viewer": 1.519,
+        "diff_revenue_per_viewer": 0.898,
+        "relative_revenue_lift_pct": 55.56,
+        "relative_per_viewer_revenue_lift_pct": 59.16,
+        "treatment_purchasers_count": 14,
+        "holdout_purchasers_count": 9
+      }
+    }
+  },
+  "immediate_replay_day": {
+    "metric": "play_started_during_session",
+    "description": "Proportion of viewers starting >= 1 play during the replay day session",
+    "results": {
+      "treatment_n": 863,
+      "holdout_n": 883,
+      "treatment_success": 397,
+      "holdout_success": 308,
+      "treatment_rate": 0.46,
+      "holdout_rate": 0.3488,
+      "diff_pts": 11.121,
+      "relative_lift_pct": 31.88,
+      "ci95": [
+        6.522,
+        15.656
+      ],
+      "ci95_wald": [
+        6.545,
+        15.697
+      ],
+      "z_score": 4.735,
+      "z_p_value": 0.0,
+      "fisher_p_value": 0.0,
+      "p_value": 0.0,
+      "statistically_significant": true
+    },
+    "cace_estimate_pts": 14.476
+  },
+  "early_return_days_1_3": {
+    "metric": "days_1_to_3_return_open",
+    "description": "Proportion of viewers reopening the app within Days 1 to 3 post-replay",
+    "results": {
+      "treatment_n": 863,
+      "holdout_n": 883,
+      "treatment_success": 549,
+      "holdout_success": 540,
+      "treatment_rate": 0.6362,
+      "holdout_rate": 0.6116,
+      "diff_pts": 2.46,
+      "relative_lift_pct": 4.02,
+      "ci95": [
+        -2.083,
+        6.986
+      ],
+      "ci95_wald": [
+        -2.083,
+        7.003
+      ],
+      "z_score": 1.061,
+      "z_p_value": 0.2887,
+      "fisher_p_value": 0.2997,
+      "p_value": 0.2887,
+      "statistically_significant": false
+    },
+    "cace_estimate_pts": 3.202
+  },
+  "full_14_day_horizon": {
+    "active_retention_rate": {
+      "description": "Proportion of viewers active on >= 1 day in the 14-day horizon",
+      "results": {
+        "treatment_n": 863,
+        "holdout_n": 883,
+        "treatment_success": 791,
+        "holdout_success": 809,
+        "treatment_rate": 0.9166,
+        "holdout_rate": 0.9162,
+        "diff_pts": 0.038,
+        "relative_lift_pct": 0.04,
+        "ci95": [
+          -2.584,
+          2.65
+        ],
+        "ci95_wald": [
+          -2.559,
+          2.634
+        ],
+        "z_score": 0.028,
+        "z_p_value": 0.9774,
+        "fisher_p_value": 1.0,
+        "p_value": 0.9774,
+        "statistically_significant": false
+      }
+    },
+    "mean_active_days": {
+      "description": "Mean number of distinct active days per viewer in the 14-day horizon",
+      "results": {
+        "treatment_n": 863,
+        "holdout_n": 883,
+        "treatment_mean": 4.518,
+        "holdout_mean": 4.467,
+        "diff": 0.051,
+        "relative_lift_pct": 1.15,
+        "ci95": [
+          -0.249,
+          0.352
+        ],
+        "t_score": 0.335,
+        "p_value": 0.7374,
+        "statistically_significant": false
+      }
+    },
+    "play_consumption_rate": {
+      "description": "Proportion of viewers starting >= 1 play in the 14-day horizon",
+      "results": {
+        "treatment_n": 863,
+        "holdout_n": 883,
+        "treatment_success": 585,
+        "holdout_success": 603,
+        "treatment_rate": 0.6779,
+        "holdout_rate": 0.6829,
+        "diff_pts": -0.503,
+        "relative_lift_pct": -0.74,
+        "ci95": [
+          -4.872,
+          3.865
+        ],
+        "ci95_wald": [
+          -4.878,
+          3.872
+        ],
+        "z_score": -0.225,
+        "z_p_value": 0.8217,
+        "fisher_p_value": 0.8374,
+        "p_value": 0.8217,
+        "statistically_significant": false
+      }
+    },
+    "mean_plays_per_viewer": {
+      "description": "Mean total plays started per viewer in the 14-day horizon",
+      "results": {
+        "treatment_n": 863,
+        "holdout_n": 883,
+        "treatment_mean": 2.437,
+        "holdout_mean": 2.506,
+        "diff": -0.069,
+        "relative_lift_pct": -2.77,
+        "ci95": [
+          -0.34,
+          0.201
+        ],
+        "t_score": -0.503,
+        "p_value": 0.6151,
+        "statistically_significant": false
+      }
+    },
+    "episode_completion_rate": {
+      "description": "Proportion of viewers completing >= 1 episode in the 14-day horizon",
+      "results": {
+        "treatment_n": 863,
+        "holdout_n": 883,
+        "treatment_success": 424,
+        "holdout_success": 452,
+        "treatment_rate": 0.4913,
+        "holdout_rate": 0.5119,
+        "diff_pts": -2.058,
+        "relative_lift_pct": -4.02,
+        "ci95": [
+          -6.731,
+          2.628
+        ],
+        "ci95_wald": [
+          -6.748,
+          2.632
+        ],
+        "z_score": -0.86,
+        "z_p_value": 0.3898,
+        "fisher_p_value": 0.4158,
+        "p_value": 0.3898,
+        "statistically_significant": false
+      }
+    },
+    "paid_conversion_rate": {
+      "description": "Proportion of viewers completing >= 1 purchase in the 14-day horizon",
+      "results": {
+        "treatment_n": 863,
+        "holdout_n": 883,
+        "treatment_success": 14,
+        "holdout_success": 9,
+        "treatment_rate": 0.0162,
+        "holdout_rate": 0.0102,
+        "diff_pts": 0.603,
+        "relative_lift_pct": 59.16,
+        "ci95": [
+          -0.514,
+          1.788
+        ],
+        "ci95_wald": [
+          -0.469,
+          1.675
+        ],
+        "z_score": 1.105,
+        "z_p_value": 0.2692,
+        "fisher_p_value": 0.2994,
+        "p_value": 0.2994,
+        "statistically_significant": false
+      },
+      "cace_estimate_pts": 0.785
+    },
+    "revenue_inr": {
+      "treatment_revenue": 2086.0,
+      "holdout_revenue": 1341.0,
+      "diff_inr": 745.0,
+      "treatment_revenue_per_viewer": 2.417,
+      "holdout_revenue_per_viewer": 1.519,
+      "diff_revenue_per_viewer": 0.898,
+      "relative_revenue_lift_pct": 55.56,
+      "relative_per_viewer_revenue_lift_pct": 59.16,
+      "treatment_purchasers_count": 14,
+      "holdout_purchasers_count": 9
+    }
+  },
+  "population_itt": {
+    "description": "Population-level Intention-To-Treat across all 5,000 randomized users",
+    "purchases": {
+      "treatment_n": 2513,
+      "holdout_n": 2487,
+      "treatment_success": 14,
+      "holdout_success": 9,
+      "treatment_rate": 0.0056,
+      "holdout_rate": 0.0036,
+      "diff_pts": 0.195,
+      "relative_lift_pct": 53.95,
+      "ci95": [
+        -0.2,
+        0.608
+      ],
+      "ci95_wald": [
+        -0.179,
+        0.57
+      ],
+      "z_score": 1.02,
+      "z_p_value": 0.3077,
+      "fisher_p_value": 0.4039,
+      "p_value": 0.4039,
+      "statistically_significant": false
+    },
+    "session_plays": {
+      "treatment_n": 2513,
+      "holdout_n": 2487,
+      "treatment_success": 397,
+      "holdout_success": 308,
+      "treatment_rate": 0.158,
+      "holdout_rate": 0.1238,
+      "diff_pts": 3.413,
+      "relative_lift_pct": 27.56,
+      "ci95": [
+        1.485,
+        5.341
+      ],
+      "ci95_wald": [
+        1.487,
+        5.339
+      ],
+      "z_score": 3.468,
+      "z_p_value": 0.0005,
+      "fisher_p_value": 0.0005,
+      "p_value": 0.0005,
+      "statistically_significant": true
+    },
+    "active_retention": {
+      "treatment_n": 2513,
+      "holdout_n": 2487,
+      "treatment_success": 791,
+      "holdout_success": 809,
+      "treatment_rate": 0.3148,
+      "holdout_rate": 0.3253,
+      "diff_pts": -1.053,
+      "relative_lift_pct": -3.24,
+      "ci95": [
+        -3.637,
+        1.532
+      ],
+      "ci95_wald": [
+        -3.639,
+        1.533
+      ],
+      "z_score": -0.798,
+      "z_p_value": 0.4249,
+      "fisher_p_value": 0.4307,
+      "p_value": 0.4249,
+      "statistically_significant": false
+    },
+    "revenue_inr": {
+      "treatment_revenue": 2086.0,
+      "holdout_revenue": 1341.0,
+      "diff_inr": 745.0,
+      "treatment_revenue_per_viewer": 0.83,
+      "holdout_revenue_per_viewer": 0.539,
+      "diff_revenue_per_viewer": 0.291,
+      "relative_revenue_lift_pct": 55.56,
+      "relative_per_viewer_revenue_lift_pct": 53.95,
+      "treatment_purchasers_count": 14,
+      "holdout_purchasers_count": 9
+    }
+  },
+  "exploratory_cace": {
+    "description": "Complier Average Causal Effect (Wald IV Estimator = ITT / Compliance). Classified as exploratory because compliance (being served) is agent-determined by policy/eligibility rather than exogenous patient adherence.",
+    "triggered_compliance_rate": 0.7683,
+    "population_compliance_rate": 0.2638,
+    "session_play_started_cace_pts": 14.476,
+    "days_1_to_3_return_cace_pts": 3.202,
+    "paid_conversion_cace_pts": 0.785,
+    "instrumental_variable_assumptions": {
+      "instrument_relevance": "Verified: Assignment strongly predicts intervention delivery (F > 1000).",
+      "exclusion_restriction": "Plausible but unverified: Assumes unserved treatment viewers experience identical outcomes as holdout viewers. If processing or background agent checks alter app state, this assumption is violated.",
+      "monotonicity": "Unproven counterfactual assumption: Monotonicity requires no defiers (D_i(1) >= D_i(0) for all i). While zero holdout actions were observed, counterfactual monotonicity cannot be empirically proven merely because no holdout actions were published.",
+      "sutva": "Assumed: Stable Unit Treatment Value Assumption requires no spillover between viewer accounts.",
+      "selection_into_compliance_limitation": "Compliers are viewers who passed quiet hours, frequency caps, consent, and dialect rules. Because they systematically differ from unserved viewers, CACE is model-dependent and exploratory."
+    }
+  },
+  "methodology_and_selection_bias": {
+    "triggered_served_vs_unserved": {
+      "treatment_n": 663,
+      "holdout_n": 1083,
+      "treatment_success": 491,
+      "holdout_success": 697,
+      "treatment_rate": 0.7406,
+      "holdout_rate": 0.6436,
+      "diff_pts": 9.699,
+      "relative_lift_pct": 15.07,
+      "ci95": [
+        5.243,
+        14.01
+      ],
+      "ci95_wald": [
+        5.31,
+        14.089
+      ],
+      "z_score": 4.218,
+      "z_p_value": 0.0,
+      "fisher_p_value": 0.0,
+      "p_value": 0.0,
+      "statistically_significant": true
+    },
+    "population_served_vs_unserved": {
+      "treatment_n": 663,
+      "holdout_n": 4337,
+      "treatment_success": 491,
+      "holdout_success": 697,
+      "treatment_rate": 0.7406,
+      "holdout_rate": 0.1607,
+      "diff_pts": 57.986,
+      "relative_lift_pct": 360.81,
+      "ci95": [
+        54.341,
+        61.35
+      ],
+      "ci95_wald": [
+        54.475,
+        61.497
+      ],
+      "z_score": 32.672,
+      "z_p_value": 0.0,
+      "fisher_p_value": 0.0,
+      "p_value": 0.0,
+      "statistically_significant": true
+    },
+    "naive_as_treated_play_rate": {
+      "treatment_n": 663,
+      "holdout_n": 1083,
+      "treatment_success": 491,
+      "holdout_success": 697,
+      "treatment_rate": 0.7406,
+      "holdout_rate": 0.6436,
+      "diff_pts": 9.699,
+      "relative_lift_pct": 15.07,
+      "ci95": [
+        5.243,
+        14.01
+      ],
+      "ci95_wald": [
+        5.31,
+        14.089
+      ],
+      "z_score": 4.218,
+      "z_p_value": 0.0,
+      "fisher_p_value": 0.0,
+      "p_value": 0.0,
+      "statistically_significant": true
+    },
+    "selection_bias_warning": "Comparing only served users (compliance subset) to unserved users creates severe selection bias. In the pilot report, Growth Analytics reported a misleading +22.4 pts uplift using this fallacy. Unbiased causal inference strictly requires comparing randomized Treatment vs Holdout."
+  },
+  "multiple_testing_interpretation": {
+    "primary_endpoint": "Session Play Started Rate (Replay Day)",
+    "family_wise_error_rate_alpha": 0.05,
+    "bonferroni_corrected_alpha_6_tests": 0.00833,
+    "findings": {
+      "confirmatory": "Immediate Session Play Started Rate (+11.12 pts triggered, +3.41 pts population) achieves p < 0.0001, surviving Bonferroni and FDR corrections.",
+      "exploratory_underpowered": "14-Day Paid Conversion (+0.60 pts triggered, Fisher p = 0.2994) and 14-Day Retention do not reach statistical significance. Directional revenue lift (+\u20b9745) must not be claimed as confirmatory causal impact."
+    }
+  }
+}

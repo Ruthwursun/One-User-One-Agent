@@ -1,0 +1,58 @@
+{
+  "user_id": "U-00260",
+  "agent_owner": "agent-U-00260",
+  "arm": "agent",
+  "subscription_status": "lapsed",
+  "active_goal_id": "G07",
+  "goal_status": "succeeded",
+  "goal_judgment": "succeeded",
+  "goal_committed_at": "2026-10-01T07:11:37.556Z",
+  "goal_deadline_at": "2026-10-04T07:11:37.000Z",
+  "goal_judgment_at": "2026-10-19T05:53:56.284Z",
+  "goal_learned": "Viewer resumed series yane-tegi-d3 with play on title T0903 at 2026-10-02T16:29:14.000Z (event: oua-001847), satisfying G07 (resume_series_3d) within deadline 2026-10-04T07:11:37.000Z.",
+  "goal_evidence_events": [
+    "oua-001847"
+  ],
+  "active_plan": {
+    "action_id": "A-000243",
+    "decision_id": "D-000856",
+    "user_id": "U-00260",
+    "trigger_event_id": "d227fc2a-64f6-4b03-af9d-45fa68ef6937",
+    "type": "home_page",
+    "published_at": "2026-10-01T07:11:37.556Z",
+    "dialect": "d3",
+    "hero_title_id": "T0905",
+    "rows": [
+      {
+        "row_type": "popular_in_dialect",
+        "title_ids": [
+          "T0902",
+          "T0904",
+          "T0908",
+          "T0901"
+        ]
+      },
+      {
+        "row_type": "new_releases",
+        "title_ids": [
+          "T0910",
+          "T0903",
+          "T0906",
+          "T0913"
+        ]
+      },
+      {
+        "row_type": "genre",
+        "title_ids": [
+          "T0909",
+          "T0907",
+          "T0914",
+          "T0911"
+        ]
+      }
+    ]
+  },
+  "last_event_at": "2026-10-01T07:11:37.556Z",
+  "last_app_dialect": "d3",
+  "updated_at": "2026-10-19T05:53:56.284Z"
+}

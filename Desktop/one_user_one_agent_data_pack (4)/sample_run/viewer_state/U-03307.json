@@ -1,0 +1,56 @@
+{
+  "user_id": "U-03307",
+  "agent_owner": "agent-U-03307",
+  "arm": "agent",
+  "subscription_status": "active",
+  "active_goal_id": "G07",
+  "goal_status": "failed",
+  "goal_judgment": "failed",
+  "goal_committed_at": "2026-10-01T11:36:02.868Z",
+  "goal_deadline_at": "2026-10-04T11:36:02.000Z",
+  "goal_judgment_at": "2026-10-19T05:53:56.284Z",
+  "goal_learned": "Goal G07 (resume_series_3d) failed: deadline 2026-10-04T11:36:02.000Z passed with no attributable success events observed.",
+  "goal_evidence_events": [],
+  "active_plan": {
+    "action_id": "A-000466",
+    "decision_id": "D-001394",
+    "user_id": "U-03307",
+    "trigger_event_id": "f8d3eea6-6414-42d0-b474-85e86f147a17",
+    "type": "home_page",
+    "published_at": "2026-10-01T11:36:02.868Z",
+    "dialect": "d3",
+    "hero_title_id": "T0905",
+    "rows": [
+      {
+        "row_type": "popular_in_dialect",
+        "title_ids": [
+          "T0902",
+          "T0904",
+          "T0908",
+          "T0901"
+        ]
+      },
+      {
+        "row_type": "new_releases",
+        "title_ids": [
+          "T0910",
+          "T0903",
+          "T0906",
+          "T0913"
+        ]
+      },
+      {
+        "row_type": "genre",
+        "title_ids": [
+          "T0909",
+          "T0907",
+          "T0914",
+          "T0911"
+        ]
+      }
+    ]
+  },
+  "last_event_at": "2026-10-01T11:36:02.868Z",
+  "last_app_dialect": "d3",
+  "updated_at": "2026-10-19T05:53:56.284Z"
+}

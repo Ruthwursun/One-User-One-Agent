@@ -1,0 +1,67 @@
+{
+  "user_id": "U-03231",
+  "agent_owner": "agent-U-03231",
+  "arm": "agent",
+  "subscription_status": "active",
+  "active_goal_id": "G07",
+  "goal_status": "succeeded",
+  "goal_judgment": "succeeded",
+  "goal_committed_at": "2026-10-01T09:28:21.571Z",
+  "goal_deadline_at": "2026-10-04T09:28:21.000Z",
+  "goal_judgment_at": "2026-10-19T05:53:56.284Z",
+  "goal_learned": "Viewer resumed series molo-d2 with play on title T0521 at 2026-10-01T09:29:06.570Z (event: oua-020384), satisfying G07 (resume_series_3d) within deadline 2026-10-04T09:28:21.000Z.",
+  "goal_evidence_events": [
+    "oua-020384"
+  ],
+  "active_plan": {
+    "action_id": "A-000369",
+    "decision_id": "D-001167",
+    "user_id": "U-03231",
+    "trigger_event_id": "0acade9f-d6cd-4fb8-a870-ba9ef68051e6",
+    "type": "home_page",
+    "published_at": "2026-10-01T09:28:21.571Z",
+    "dialect": "d2",
+    "hero_title_id": "T0616",
+    "rows": [
+      {
+        "row_type": "popular_in_dialect",
+        "title_ids": [
+          "T0596",
+          "T0535",
+          "T0679",
+          "T0779"
+        ]
+      },
+      {
+        "row_type": "new_releases",
+        "title_ids": [
+          "T0584",
+          "T0829",
+          "T0832",
+          "T0746"
+        ]
+      },
+      {
+        "row_type": "genre",
+        "title_ids": [
+          "T0575",
+          "T0787",
+          "T0741",
+          "T0724"
+        ]
+      },
+      {
+        "row_type": "because_you_watched",
+        "title_ids": [
+          "T0711",
+          "T0726",
+          "T0587",
+          "T0552"
+        ]
+      }
+    ]
+  },
+  "last_event_at": "2026-10-01T09:28:21.571Z",
+  "last_app_dialect": "d2",
+  "updated_at": "2026-10-19T05:53:56.284Z"
+}

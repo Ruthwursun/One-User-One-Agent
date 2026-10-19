@@ -1,0 +1,67 @@
+{
+  "user_id": "U-00106",
+  "agent_owner": "agent-U-00106",
+  "arm": "agent",
+  "subscription_status": "active",
+  "active_goal_id": "G07",
+  "goal_status": "succeeded",
+  "goal_judgment": "succeeded",
+  "goal_committed_at": "2026-10-01T10:11:49.018Z",
+  "goal_deadline_at": "2026-10-04T10:11:49.000Z",
+  "goal_judgment_at": "2026-10-19T05:53:56.284Z",
+  "goal_learned": "Viewer resumed series ritina-ropa-d5 with play on title T1192 at 2026-10-01T10:16:19.017Z (event: oua-000687), satisfying G07 (resume_series_3d) within deadline 2026-10-04T10:11:49.000Z.",
+  "goal_evidence_events": [
+    "oua-000687"
+  ],
+  "active_plan": {
+    "action_id": "A-000404",
+    "decision_id": "D-001247",
+    "user_id": "U-00106",
+    "trigger_event_id": "2cf3bf25-9fc6-4ad4-b689-a696a41aac06",
+    "type": "home_page",
+    "published_at": "2026-10-01T10:11:49.018Z",
+    "dialect": "d5",
+    "hero_title_id": "T1192",
+    "rows": [
+      {
+        "row_type": "popular_in_dialect",
+        "title_ids": [
+          "T1213",
+          "T1219",
+          "T1264",
+          "T1250"
+        ]
+      },
+      {
+        "row_type": "new_releases",
+        "title_ids": [
+          "T1183",
+          "T1381",
+          "T1326",
+          "T1189"
+        ]
+      },
+      {
+        "row_type": "genre",
+        "title_ids": [
+          "T1202",
+          "T1215",
+          "T1181",
+          "T1278"
+        ]
+      },
+      {
+        "row_type": "because_you_watched",
+        "title_ids": [
+          "T1349",
+          "T1383",
+          "T1341",
+          "T1236"
+        ]
+      }
+    ]
+  },
+  "last_event_at": "2026-10-01T13:02:38.589Z",
+  "last_app_dialect": "d5",
+  "updated_at": "2026-10-19T05:53:56.284Z"
+}
